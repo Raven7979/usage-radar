@@ -4,15 +4,21 @@
 
 **Usage Radar is a small macOS menu bar app for checking Codex and Claude usage at a glance.**
 
-If you use Codex and Claude heavily, one of the most repeated micro-actions is checking how much quota is left: open the app, find the usage page, wait for the dialog, compare the 5-hour window and the weekly window, then do it again later. Usage Radar turns that into one glance in the menu bar.
+If you use Codex and Claude heavily, one of the most repeated micro-actions is checking how much quota is left: open the app, find the usage page, wait for the dialog, compare the 5-hour window and the 7-day window, then do it again later. Usage Radar turns that into one glance in the menu bar.
 
-Menu bar format:
+Menu bar meaning:
 
 ```text
 Codex 5h/7d · Claude 5h/7d
 ```
 
-For example, `98/99 · 100/74` means Codex has 98% left in the 5-hour window and 99% left in the weekly window, while Claude has 100% left in the 5-hour window and 74% left in the weekly window.
+Actual compact display:
+
+```text
+Codex 96%/98% · 2h51m   Claude 51%/69% · 2h6m
+```
+
+`96%/98%` means Codex has 96% left in the 5-hour window and 98% left in the 7-day window. `51%/69%` means Claude has 51% left in the 5-hour window and 69% left in the 7-day window. The time after each provider is the countdown to that provider's current 5-hour reset.
 
 ## 中文简介
 
