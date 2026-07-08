@@ -1,0 +1,14 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+dist/
+design-qa.md
+*.dSYM/
+*.swp
+*.tmp
+*.log
+xcuserdata/
+Package.resolved

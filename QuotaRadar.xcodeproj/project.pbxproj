@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31D04A6CB380859A12A63629 /* CodexUsageReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51970618A260845B6E3CC3AF /* CodexUsageReader.swift */; };
+		383CB425CDFB793410D401FB /* UsageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46371C025BF6DA8BE477BD11 /* UsageModels.swift */; };
+		3AF76D5A169EF22B13E49B3E /* JSONLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A380BD8BBF08A80BE08E779 /* JSONLines.swift */; };
+		4CB634892597097AC33A9849 /* ClaudeUsageReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30ECB46E627F735C7C7DBA8 /* ClaudeUsageReader.swift */; };
+		56B678360D4E489E4AC9658A /* ClaudeUsageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDB8BDDB3F818C03DA5A759 /* ClaudeUsageAPIClient.swift */; };
+		5E090CD624F04046A2F79DE5 /* ClaudeUsageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDB8BDDB3F818C03DA5A759 /* ClaudeUsageAPIClient.swift */; };
+		5FFAEFC5432F5D8FCB012D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501DFA4483DB4EABBAF7DCED /* Assets.xcassets */; };
+		6597629512B19AE628AC06FD /* FileDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413C5F14C785359E771C820A /* FileDiscovery.swift */; };
+		7C7862395EF8360FD618E21C /* ClaudeUsageReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30ECB46E627F735C7C7DBA8 /* ClaudeUsageReader.swift */; };
+		7DE17E768C3A178C35183E74 /* QuotaRadarMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8697ABAB609613B367D7E /* QuotaRadarMacApp.swift */; };
+		8173D8CB38B02C9D35558B05 /* CodexUsageReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51970618A260845B6E3CC3AF /* CodexUsageReader.swift */; };
+		86117064DD3B324BB97AC1BF /* UsageSnapshotReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C62DC44B4CFB1F7A904D8 /* UsageSnapshotReader.swift */; };
+		89EB2B0D093AAD6D184F14D1 /* QuotaRadarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E45F427343759B82331C04 /* QuotaRadarWidget.swift */; };
+		8D3DE49DC5305C0A06018318 /* UsageSnapshotReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C62DC44B4CFB1F7A904D8 /* UsageSnapshotReader.swift */; };
+		9726C1E7AC07EBE93F8E4406 /* DateParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD70BA64D8CE976B2CACB8AD /* DateParsing.swift */; };
+		A487232491255096A95ADEFF /* SnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D51B7E68A0D429AFB8BAA0A /* SnapshotStore.swift */; };
+		A6F1478D574399811383D01F /* DateParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD70BA64D8CE976B2CACB8AD /* DateParsing.swift */; };
+		BCEEEA358A8853C82110EF64 /* FileDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413C5F14C785359E771C820A /* FileDiscovery.swift */; };
+		C5A7B16BFCC23E84D05629A3 /* UsageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46371C025BF6DA8BE477BD11 /* UsageModels.swift */; };
+		D15BB636C472324FDDEC63FF /* JSONLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A380BD8BBF08A80BE08E779 /* JSONLines.swift */; };
+		D96EEC9A852473260A5896E0 /* SnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D51B7E68A0D429AFB8BAA0A /* SnapshotStore.swift */; };
+		E9774F00F8F12A1755C22174 /* QuotaRadarWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7E96AD9CDBCEED68357B4E38 /* QuotaRadarWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72731E3169F4757AE7D13632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23DE0690A433E3C9E9C4AC19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10D0AA0033D65CAB6C48B16;
+			remoteInfo = QuotaRadarWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAF1E26EFDC2D63FB8ADEE3D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E9774F00F8F12A1755C22174 /* QuotaRadarWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A7C5E4F27BE3B6CE014F6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		413C5F14C785359E771C820A /* FileDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDiscovery.swift; sourceTree = "<group>"; };
+		46371C025BF6DA8BE477BD11 /* UsageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageModels.swift; sourceTree = "<group>"; };
+		501DFA4483DB4EABBAF7DCED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51970618A260845B6E3CC3AF /* CodexUsageReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexUsageReader.swift; sourceTree = "<group>"; };
+		5419B27094F8222134B20CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5A380BD8BBF08A80BE08E779 /* JSONLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLines.swift; sourceTree = "<group>"; };
+		70E45F427343759B82331C04 /* QuotaRadarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaRadarWidget.swift; sourceTree = "<group>"; };
+		7D51B7E68A0D429AFB8BAA0A /* SnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotStore.swift; sourceTree = "<group>"; };
+		7E96AD9CDBCEED68357B4E38 /* QuotaRadarWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuotaRadarWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		98531013A65614D494566C60 /* QuotaRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotaRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDB8BDDB3F818C03DA5A759 /* ClaudeUsageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeUsageAPIClient.swift; sourceTree = "<group>"; };
+		C9D8697ABAB609613B367D7E /* QuotaRadarMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaRadarMacApp.swift; sourceTree = "<group>"; };
+		E30ECB46E627F735C7C7DBA8 /* ClaudeUsageReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeUsageReader.swift; sourceTree = "<group>"; };
+		E39C62DC44B4CFB1F7A904D8 /* UsageSnapshotReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageSnapshotReader.swift; sourceTree = "<group>"; };
+		FD70BA64D8CE976B2CACB8AD /* DateParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateParsing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6E7CCE65B5199CF6B2EE432E /* QuotaRadarCore */ = {
+			isa = PBXGroup;
+			children = (
+				AFDB8BDDB3F818C03DA5A759 /* ClaudeUsageAPIClient.swift */,
+				E30ECB46E627F735C7C7DBA8 /* ClaudeUsageReader.swift */,
+				51970618A260845B6E3CC3AF /* CodexUsageReader.swift */,
+				FD70BA64D8CE976B2CACB8AD /* DateParsing.swift */,
+				413C5F14C785359E771C820A /* FileDiscovery.swift */,
+				5A380BD8BBF08A80BE08E779 /* JSONLines.swift */,
+				7D51B7E68A0D429AFB8BAA0A /* SnapshotStore.swift */,
+				46371C025BF6DA8BE477BD11 /* UsageModels.swift */,
+				E39C62DC44B4CFB1F7A904D8 /* UsageSnapshotReader.swift */,
+			);
+			name = QuotaRadarCore;
+			path = Sources/QuotaRadarCore;
+			sourceTree = "<group>";
+		};
+		78DB584E8BF26D9BDA30E999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98531013A65614D494566C60 /* QuotaRadar.app */,
+				7E96AD9CDBCEED68357B4E38 /* QuotaRadarWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B067D852A2F890B0889E5E92 = {
+			isa = PBXGroup;
+			children = (
+				6E7CCE65B5199CF6B2EE432E /* QuotaRadarCore */,
+				D2D689D666119E202E38F0F7 /* QuotaRadarMacApp */,
+				DADD9C1C64100A01224E43FA /* QuotaRadarWidget */,
+				78DB584E8BF26D9BDA30E999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D689D666119E202E38F0F7 /* QuotaRadarMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				501DFA4483DB4EABBAF7DCED /* Assets.xcassets */,
+				5419B27094F8222134B20CF7 /* Info.plist */,
+				C9D8697ABAB609613B367D7E /* QuotaRadarMacApp.swift */,
+			);
+			name = QuotaRadarMacApp;
+			path = XcodeTargets/QuotaRadarMacApp;
+			sourceTree = "<group>";
+		};
+		DADD9C1C64100A01224E43FA /* QuotaRadarWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C5E4F27BE3B6CE014F6E7 /* Info.plist */,
+				70E45F427343759B82331C04 /* QuotaRadarWidget.swift */,
+			);
+			name = QuotaRadarWidget;
+			path = XcodeTargets/QuotaRadarWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		785D4BB7E6F0BF67A919C278 /* QuotaRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C30B429E858E8DF2617CF1 /* Build configuration list for PBXNativeTarget "QuotaRadar" */;
+			buildPhases = (
+				D2D4AB8CC9C43CAAA6ED7586 /* Sources */,
+				8B583F7BC75D1E2BF2A54E5A /* Resources */,
+				FAF1E26EFDC2D63FB8ADEE3D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30EEDEBC45B51221582E7FDC /* PBXTargetDependency */,
+			);
+			name = QuotaRadar;
+			packageProductDependencies = (
+			);
+			productName = QuotaRadar;
+			productReference = 98531013A65614D494566C60 /* QuotaRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D10D0AA0033D65CAB6C48B16 /* QuotaRadarWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68C063B4F9C538AAD730A5E /* Build configuration list for PBXNativeTarget "QuotaRadarWidget" */;
+			buildPhases = (
+				1774D644374B29F641AE1AC3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuotaRadarWidget;
+			packageProductDependencies = (
+			);
+			productName = QuotaRadarWidget;
+			productReference = 7E96AD9CDBCEED68357B4E38 /* QuotaRadarWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23DE0690A433E3C9E9C4AC19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					785D4BB7E6F0BF67A919C278 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					D10D0AA0033D65CAB6C48B16 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5EC0757F0FF8202FD49C8A0 /* Build configuration list for PBXProject "QuotaRadar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B067D852A2F890B0889E5E92;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 78DB584E8BF26D9BDA30E999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				785D4BB7E6F0BF67A919C278 /* QuotaRadar */,
+				D10D0AA0033D65CAB6C48B16 /* QuotaRadarWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B583F7BC75D1E2BF2A54E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFAEFC5432F5D8FCB012D26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1774D644374B29F641AE1AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E090CD624F04046A2F79DE5 /* ClaudeUsageAPIClient.swift in Sources */,
+				4CB634892597097AC33A9849 /* ClaudeUsageReader.swift in Sources */,
+				31D04A6CB380859A12A63629 /* CodexUsageReader.swift in Sources */,
+				9726C1E7AC07EBE93F8E4406 /* DateParsing.swift in Sources */,
+				BCEEEA358A8853C82110EF64 /* FileDiscovery.swift in Sources */,
+				D15BB636C472324FDDEC63FF /* JSONLines.swift in Sources */,
+				89EB2B0D093AAD6D184F14D1 /* QuotaRadarWidget.swift in Sources */,
+				A487232491255096A95ADEFF /* SnapshotStore.swift in Sources */,
+				383CB425CDFB793410D401FB /* UsageModels.swift in Sources */,
+				86117064DD3B324BB97AC1BF /* UsageSnapshotReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D4AB8CC9C43CAAA6ED7586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B678360D4E489E4AC9658A /* ClaudeUsageAPIClient.swift in Sources */,
+				7C7862395EF8360FD618E21C /* ClaudeUsageReader.swift in Sources */,
+				8173D8CB38B02C9D35558B05 /* CodexUsageReader.swift in Sources */,
+				A6F1478D574399811383D01F /* DateParsing.swift in Sources */,
+				6597629512B19AE628AC06FD /* FileDiscovery.swift in Sources */,
+				3AF76D5A169EF22B13E49B3E /* JSONLines.swift in Sources */,
+				7DE17E768C3A178C35183E74 /* QuotaRadarMacApp.swift in Sources */,
+				D96EEC9A852473260A5896E0 /* SnapshotStore.swift in Sources */,
+				C5A7B16BFCC23E84D05629A3 /* UsageModels.swift in Sources */,
+				8D3DE49DC5305C0A06018318 /* UsageSnapshotReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30EEDEBC45B51221582E7FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10D0AA0033D65CAB6C48B16 /* QuotaRadarWidget */;
+			targetProxy = 72731E3169F4757AE7D13632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		392FEDE7EBEA5A6A0F12B6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		57F923E16C34C79D78DEF7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		7178F5AD4868BC14D2E709B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XcodeTargets/QuotaRadarWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravenlei.QuotaRadar.Widget;
+				PRODUCT_MODULE_NAME = QuotaRadarWidget;
+				PRODUCT_NAME = "Usage Radar Widget";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B92C400B9D80D8DC3958D779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XcodeTargets/QuotaRadarMacApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravenlei.QuotaRadar;
+				PRODUCT_MODULE_NAME = QuotaRadar;
+				PRODUCT_NAME = "Usage Radar";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E82B4EBA42AE4526ECC9C416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XcodeTargets/QuotaRadarWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravenlei.QuotaRadar.Widget;
+				PRODUCT_MODULE_NAME = QuotaRadarWidget;
+				PRODUCT_NAME = "Usage Radar Widget";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F7C84F771F5120ED6DD829CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XcodeTargets/QuotaRadarMacApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ravenlei.QuotaRadar;
+				PRODUCT_MODULE_NAME = QuotaRadar;
+				PRODUCT_NAME = "Usage Radar";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5EC0757F0FF8202FD49C8A0 /* Build configuration list for PBXProject "QuotaRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F923E16C34C79D78DEF7BE /* Debug */,
+				392FEDE7EBEA5A6A0F12B6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A68C063B4F9C538AAD730A5E /* Build configuration list for PBXNativeTarget "QuotaRadarWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E82B4EBA42AE4526ECC9C416 /* Debug */,
+				7178F5AD4868BC14D2E709B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C3C30B429E858E8DF2617CF1 /* Build configuration list for PBXNativeTarget "QuotaRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92C400B9D80D8DC3958D779 /* Debug */,
+				F7C84F771F5120ED6DD829CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23DE0690A433E3C9E9C4AC19 /* Project object */;
+}

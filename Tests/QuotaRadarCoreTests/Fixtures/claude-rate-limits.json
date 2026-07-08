@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-07T11:00:00Z",
+  "source": "claude-code-statusline",
+  "session_id": "demo",
+  "model": "Claude",
+  "five_hour": {
+    "used_percentage": 40,
+    "resets_at": 1783447200
+  },
+  "seven_day": {
+    "used_percentage": 12.5,
+    "resets_at": 1783879200
+  }
+}
